@@ -12,7 +12,7 @@
 }
 
 .header {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'UniversalisADFStdRegular', sans-serif;
   z-index: 1;
   text-align: center;
   color:#FFF;
@@ -24,10 +24,10 @@
   transform: translate(-50%, -50%);
   .site-title {
     font-size: 50px;
+    font-weight: normal;
     display: block;
     line-height: 1;
     color: #FFF;
-    font-weight: normal;
     @media only screen and (min-width:$cut){
       margin: 0;
       font-size: 76px;
