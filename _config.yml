@@ -1,12 +1,12 @@
 # Site settings
 title: Sasyuk
-description: Sasyuk is an experimental solo project. I play the saxophone, various synthesizers and ukulele. Genre is not really a concept I believe in but all of this is probably somewhere between electronica, ambient, post-rock and jazz. There is no real plan behind my releases, instead, I just put music out and hope that some people enjoy it. If you do so, please let me know and share it with people that will like it, too. 
+description: I make music
 # baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://sasyuk.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Sasyuk
-user_description: I make music
+user_description: Sasyuk is an experimental solo project. I play the saxophone, various synthesizers and ukulele. Genre is not really a concept I believe in but all of this is probably somewhere between electronica, ambient, post-rock and jazz. There is no real plan behind my releases, instead, I just put music out and hope that some people enjoy it. If you do so, please let me know and share it with people that will like it, too. 
 user_title: Different Music
 email: sasyuk.music@gmail.com
 twitter_username: sasyuk_music
