@@ -3516,7 +3516,7 @@ sup, sub {
   background-color: #1a222c;
   font-size: 120%;
   font-family: sans-serif;
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   max-width: 960px; }
   @media only screen and (min-width: 768px) {
@@ -3531,6 +3531,7 @@ sup, sub {
 
 .tech {
   margin: 10px;
+  width: 90%;
   flex: 1 1 0; }
   .tech h2, .tech h3 {
     font-weight: 400; }
