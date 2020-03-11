@@ -10,7 +10,16 @@
     height: 100vh !important;
   }
 }
-
+   
+@font-face {
+  font-family: 'Universalis ADF Std';
+  src: url(../fonts/UniversalisADFStd-Regular.woff);
+  font-style: normal; }
+@font-face {
+  font-family: 'Universalis ADF Std';
+  src: url(../fonts/UniversalisADFStd-Bold.woff);
+  font-style: bold; }
+  
 .header {
   font-family: 'Universalis ADF Std', sans-serif;
   font-weight: normal;
