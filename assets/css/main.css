@@ -3512,6 +3512,23 @@ sup, sub {
     width: 60px !important;
     height: auto; }
 
+#releases {
+  background-color: #1a222c";
+  font-size: 120%;
+  font-family: sans-serif;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 960px; }
+  @media only screen and (min-width: 768px) {
+    #releases {
+      width: 80%; } }
+  #releases svg {
+    width: 60px !important;
+    height: auto; }
+  #releases h1 {
+    color: #FFF;
+  }
+
 .tech {
   margin: 10px;
   flex: 1 1 0; }
