@@ -13,10 +13,6 @@
    
 @font-face {
   font-family: 'Universalis ADF Std';
-  src: url(../fonts/UniversalisADFStd-Regular.woff);
-  font-style: normal; }
-@font-face {
-  font-family: 'Universalis ADF Std';
   src: url(../fonts/UniversalisADFStd-Bold.woff);
   font-style: bold; }
   
@@ -32,6 +28,12 @@
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
+
+  @font-face {
+    font-family: 'Universalis ADF Std';
+    src: url(../fonts/UniversalisADFStd-Regular.woff);
+    font-style: normal; }
+
   .site-title {
     font-size: 50px;
     font-weight: normal;
@@ -43,6 +45,12 @@
       font-size: 76px;
     }
   }
+   
+  @font-face {
+    font-family: 'Universalis ADF Std';
+    src: url(../fonts/UniversalisADFStd-Bold.woff);
+    font-style: bold; }
+    
   .site-description {
     font-size: 20px;
     display: block;

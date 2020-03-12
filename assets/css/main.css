@@ -3389,11 +3389,6 @@ sup, sub {
 
 @font-face {
   font-family: 'Universalis ADF Std';
-  src: url(../fonts/UniversalisADFStd-Regular.woff);
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Universalis ADF Std';
   src: url(../fonts/UniversalisADFStd-Bold.woff);
   font-style: bold; }
 
@@ -3409,6 +3404,12 @@ sup, sub {
   margin: 0 auto;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%); }
+
+@font-face {
+  .header {
+    font-family: 'Universalis ADF Std';
+    src: url(../fonts/UniversalisADFStd-Regular.woff);
+    font-style: normal; } }
   .header .site-title {
     font-size: 50px;
     font-weight: normal;
@@ -3419,6 +3420,12 @@ sup, sub {
       .header .site-title {
         margin: 0;
         font-size: 76px; } }
+
+@font-face {
+  .header {
+    font-family: 'Universalis ADF Std';
+    src: url(../fonts/UniversalisADFStd-Bold.woff);
+    font-style: bold; } }
   .header .site-description {
     font-size: 20px;
     display: block;
