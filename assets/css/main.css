@@ -142,6 +142,7 @@ summary {
   src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
   font-weight: normal;
   font-style: normal; }
+
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -233,6 +234,7 @@ summary {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
+
 @keyframes fa-spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -240,6 +242,7 @@ summary {
   100% {
     -webkit-transform: rotate(359deg);
     transform: rotate(359deg); } }
+
 .fa-rotate-90 {
   -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
@@ -2345,6 +2348,7 @@ summary {
   src: url(../fonts/devicon.eot?#iefix-hdf3wh) format("embedded-opentype"), url(../fonts/devicon.woff?-hdf3wh) format("woff"), url(../fonts/devicon.ttf?-hdf3wh) format("truetype"), url(../fonts/devicon.svg?-hdf3wh#devicon) format("svg");
   font-weight: 400;
   font-style: normal; }
+
 [class*=" devicon-"], [class^=devicon-] {
   font-family: devicon;
   speak: none;
@@ -3353,6 +3357,7 @@ sup, sub {
     filter: alpha(opacity=40);
     opacity: .4;
     top: 0; } }
+
 @keyframes pulse {
   from {
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -3370,6 +3375,7 @@ sup, sub {
     filter: alpha(opacity=40);
     opacity: .4;
     top: 0; } }
+
 #particles-js {
   background: #1a222c;
   display: flex;
@@ -3385,10 +3391,12 @@ sup, sub {
   font-family: 'Universalis ADF Std';
   src: url(../fonts/UniversalisADFStd-Regular.woff);
   font-style: normal; }
+
 @font-face {
   font-family: 'Universalis ADF Std';
   src: url(../fonts/UniversalisADFStd-Bold.woff);
   font-style: bold; }
+
 .header {
   font-family: 'Universalis ADF Std', sans-serif;
   font-weight: normal;
@@ -3514,8 +3522,23 @@ sup, sub {
     width: 60px !important;
     height: auto; }
 
+#releases {
+  font-size: 120%;
+  font-family: sans-serif;
+  background-color: #1a222c;
+  width: 100%;
+  margin: 0; }
+  #releases svg {
+    width: 60px !important;
+    height: auto; }
+  #releases h1 {
+    color: white; }
+
 .tech {
-  margin: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 20%;
+  margin-right: 20%;
   flex: 1 1 0; }
   .tech h2, .tech h3 {
     font-weight: 400; }
@@ -3559,5 +3582,3 @@ sup, sub {
       color: #4B5664; }
     .footer a:active {
       color: #4B5664; }
-
-/*# sourceMappingURL=main.css.map */
