@@ -3544,13 +3544,14 @@ sup, sub {
 .releases_container {
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 20%;
-  margin-right: 20%; }
+  margin-left: 15%;
+  margin-right: 15%; }
   .releases_container h2, .releases_container h3 {
     font-weight: 400; }
 
 .releases_item {
-  margin: 5px; }
+  overflow: auto;
+  margin-bottom: 10px; }
 
 .releases {
   text-align: center;
@@ -3573,7 +3574,10 @@ sup, sub {
       height: 100%; }
   .releases .players {
     float: right;
-    width: 50%; }
+    width: 49%; }
+    .releases .players iframe {
+      margin-bottom: 1%;
+      height: 130px; }
 
 .releases-details {
   text-align: center;

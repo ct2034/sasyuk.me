@@ -2,8 +2,9 @@
 layout: default
 title: "Interlace"
 cover_url: https://distrokid.com/hyperfollow/art/sasyuk/interlace
-spotify_id: 40jLvPDJwjEdnezfFMgn3R
+cover_text_color: "FE6C19"
 distrokid_url: https://distrokid.com/hyperfollow/sasyuk/interlace
+spotify_id: 7cMALgwhqBvrUVNLJzwXeL
 soundcloud_trackid: 772788328
 tags: [Sax]
 ---
