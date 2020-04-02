@@ -70,8 +70,9 @@
   .players {
     float: right;
     width: 49%;
+    font-size: 0;
     iframe {
-      margin-bottom: 1%;
+      margin-bottom: 2%;
       height: 130px;
     }
   }

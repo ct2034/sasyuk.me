@@ -3551,7 +3551,7 @@ sup, sub {
 
 .releases_item {
   overflow: auto;
-  margin-bottom: 10px; }
+  margin-bottom: 20px; }
 
 .releases {
   text-align: center;
@@ -3574,9 +3574,10 @@ sup, sub {
       height: 100%; }
   .releases .players {
     float: right;
-    width: 49%; }
+    width: 49%;
+    font-size: 0; }
     .releases .players iframe {
-      margin-bottom: 1%;
+      margin-bottom: 2%;
       height: 130px; }
 
 .releases-details {
