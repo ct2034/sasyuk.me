@@ -1,13 +1,15 @@
 <div class="user">
-    <div class="tech">
+  <!--div>
+  </div-->
+  <div class="releases_container">
       <h1>Releases</h1>
-      <a href="https://distrokid.com/hyperfollow/sasyuk/interlace" target="_blank">
-         <img class="cover"
-              src="https://distrokid.com/hyperfollow/art/sasyuk/interlace"/>
-      </a>          
-      <a href="https://distrokid.com/hyperfollow/sasyuk/andrey" target="_blank">
-         <img class="cover"
-              src="https://distrokid.com/hyperfollow/art/sasyuk/andrey"/>
-      </a>   
-    </div>
+      {% for post in site.posts %}
+      <div class="releases_item">
+        <a href="{{ post.url }}" target="_blank">
+          <img class="cover"
+              src="{{ post.cover_url }}"/>
+        </a>  
+      </div> 
+      {% endfor %}  
   </div>
+</div>
